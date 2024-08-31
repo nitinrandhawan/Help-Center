@@ -31,7 +31,7 @@ const HelpOptions = ({ searchVal }) => {
             }
           >
             {options.map((option, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+              <div key={index} className="bg-white p-6 rounded-lg shadow-md transition-transform duration-300  cursor-pointer hover:bg-gray-100/15 ease-in-out transform hover:scale-105 hover:shadow-xl hover:animate-colorful">
                 <h2 className="text-lg font-semibold text-gray-800 mb-2">
                   {option.title}
                 </h2>

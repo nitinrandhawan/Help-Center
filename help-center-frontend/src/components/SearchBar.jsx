@@ -31,7 +31,11 @@ const SearchBar = ({searchVal}) => {
  
   return (
     <section className="bg-purple-100 py-16 text-center">
-      <h1 className="text-5xl font-medium mb-7">How can we help?</h1>
+      <div className="w-max m-auto">
+      <h1 className="text-5xl font-medium mb-7 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5  text-black ">How can we help?</h1>
+
+      </div>
+
       <div className="relative mx-auto w-1/2">
         <input
           type="text"
